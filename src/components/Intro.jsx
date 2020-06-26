@@ -30,17 +30,3 @@ export default class Intro extends Component {
 		);
 	}
 }
-
-
-// <div>
-// <img
-// 	src={
-// 		process.env.PUBLIC_URL +
-// 		"/images/StockSnap_DW4W4JKS9I-large.jpg"
-// 	}
-// 	alt="Broken Dream Café"
-// 	srcSet={srcSetValue}
-// 	sizes="(max-width: 1080px) 960px, 1920px"
-// 	className="title-image"
-// />
-// </div>
