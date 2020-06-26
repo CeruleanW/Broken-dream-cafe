@@ -1,0 +1,1 @@
+This is a landing page for a fake cafe named Broken Dream.
