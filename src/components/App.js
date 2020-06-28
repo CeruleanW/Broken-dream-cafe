@@ -7,11 +7,11 @@ import Intro from './Intro';
 import Gallery from './Gallery';
 import Menu from './Menu';
 import Testimonial from './Testimonial';
-import Booking from './Booking';
+import BookingForm from './BookingForm';
 
 // Navigation bar items: "About Us", "Menu", "Catering", "Events", "Book Now!"
-const clientName = "Broken Dream Café";
 
+const clientName = "Broken Dream Café";
 const sectionIds = {
   "aboutUs": "about-us",
   "menu": "menu",
@@ -20,17 +20,17 @@ const sectionIds = {
 
 function App() {
   return (
-    <div className="App">
-      <Header ids={sectionIds}/>
-      <Intro ids={sectionIds}/>
-      <Gallery />
-      <Menu id={sectionIds.menu} />
-      <Testimonial />
-      <AboutUs id={sectionIds.aboutUs} />
-      <Booking id={sectionIds.booking}/>
-      <Share />
-      <Footer />
-    </div>
+			<div className="App">
+				<Header ids={sectionIds} clientName={clientName} />
+				<Intro ids={sectionIds} clientName={clientName} />
+				<Gallery />
+				<Menu id={sectionIds.menu} />
+				<Testimonial />
+				<AboutUs id={sectionIds.aboutUs} clientName={clientName} />
+				<BookingForm id={sectionIds.booking} />
+				<Share />
+				<Footer />
+			</div>
   );
 }
 

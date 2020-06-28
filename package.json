@@ -43,5 +43,7 @@
     "url": "https://github.com/CeruleanW/Broken-dream-cafe/issues"
   },
   "homepage": "https://ceruleanw.github.io/Broken-dream-cafe/",
-  "devDependencies": {}
+  "devDependencies": {
+    "react-share": "^4.2.0"
+  }
 }

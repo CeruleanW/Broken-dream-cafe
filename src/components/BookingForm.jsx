@@ -5,15 +5,28 @@ import React, { Component } from "react";
 // text input elements are very similar
 // validation
 
-const createTextInput = (inputName) => {
+const Input = (props) => {
 	return (
-		<input
-			type="text"
-			name={inputName}
-			required
-			aria-invalid="false"
-			placeholder={capitalize(inputName)}
-		/>
+		<div className="pure-u-1 pure-u-md-1-2">
+			<label for={"booking-" + props.inputName}>{props.text}</label>
+			{props.children}
+		</div>
+	);
+};
+
+const TextInput = (props) => {
+	return (
+		<div className="pure-u-1 pure-u-md-1-2">
+			<label for={"booking-" + props.inputName}>{props.text}</label>
+			<input
+				type="text"
+				name={props.inputName}
+				required
+				aria-invalid="false"
+				placeholder={capitalize(props.inputName)}
+				className="pure-u-23-24"
+			/>
+		</div>
 	);
 };
 
@@ -25,14 +38,15 @@ function capitalize(word) {
 	return word.charAt(0).toUpperCase() + word.slice(1)
 }
 
-export default class Booking extends Component {
+export default class BookingForm extends Component {
 	render() {
 		return (
 			<section className="book-a-table" id={this.props.id}>
-				<form action="#" onSubmit={handleSubmit}>
-					{createTextInput("name")}
-					{createTextInput("email")}
-					{createTextInput("telephone")}
+				<form action="#" onSubmit={handleSubmit} className="pure-form pure-form-aligned">
+					
+					<TextInput inputName="name" text="Name"/>
+					<TextInput inputName="email" text="E-mail"/>
+					<TextInput inputName="telephone" text="Phone number"/>
 					<input
 						type="date"
 						name="appointment-date"
@@ -66,7 +80,7 @@ export default class Booking extends Component {
 						defaultValue={""}
 					/>
 
-					<input type="submit" value="Submit" />
+					<input type="submit" value="Submit" className="pure-button pure-button-primary"/>
 				</form>
 			</section>
 		);

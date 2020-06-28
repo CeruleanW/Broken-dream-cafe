@@ -4,7 +4,7 @@ export default class AboutUs extends Component {
   render() {
     return (
       <section className="about-us" id={this.props.id}>
-        <h2 className="title">Welcome to Broken Dream Cafe!</h2>
+        <h2 className="about-us__title">{this.props.clientName}</h2>
         <p>
           Since 1874 when Despa Maecenas and his wife Vivian opened the Broken
           Dream Cafe, cozy experience was always behind this brand. Over the
