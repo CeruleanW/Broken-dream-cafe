@@ -8,6 +8,7 @@ import Gallery from './Gallery';
 import FoodMenu from './FoodMenu';
 import Testimonial from './Testimonial';
 import BookingForm from './BookingForm';
+import "../css/layout.css";
 
 // Navigation bar items: "About Us", "Menu", "Catering", "Events", "Book Now!"
 
@@ -29,7 +30,7 @@ function App() {
 				<AboutUs id={sectionIds.aboutUs} clientName={clientName} />
 				<BookingForm id={sectionIds.booking} />
 				<Share />
-				<Footer />
+				<Footer clientName={clientName} />
 			</div>
   );
 }

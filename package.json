@@ -44,6 +44,8 @@
   },
   "homepage": "https://ceruleanw.github.io/Broken-dream-cafe/",
   "devDependencies": {
-    "react-share": "^4.2.0"
+    "react-responsive-animate-navbar": "^1.1.8",
+    "react-share": "^4.2.0",
+    "react-sticky-footer": "0.1.0-rc3"
   }
 }

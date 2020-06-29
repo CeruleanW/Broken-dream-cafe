@@ -1,30 +1,3 @@
-/* Footer */
-footer {
-	background-color: #f1f1f1;
-	bottom: 0;
-	color: #000000;
-	font-size: 14px;
-	line-height: 20px;
-	position: fixed;
-	text-align: center;
-	width: 100%;
-}
-
-a {
-	text-decoration: none;
-	color: inherit;
-	border-bottom: 1px solid;
-}
-
-a:hover {
-	border-bottom: 1px transparent;
-}
-
-a:active {
-	color: red;
-}
-
-footer .my-name {
-	font-family: 'alex_brushregular';
-	font-size: 16px;
+a:visited {
+	color:#696eff;
 }
