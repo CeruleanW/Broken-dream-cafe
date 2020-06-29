@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import logo128 from "../images/logo128.png"
+import "../css/Nav.css"
+// import NavAnimation from './NavAnimation';
 
 // "Icon made by monkik from www.flaticon.com"
 
@@ -14,17 +16,23 @@ const ListItem = (props) => {
 		</li>
 	);
 };
+
+const Logo = (props) => {
+	return (
+		<div className="pure-menu-heading pure-u-1 pure-u-md-1-3">
+			<img src={logo128} alt="logo" className="pure-img header__logo__img" />
+			{/* this image should be inline */}
+			<div className='header__logo__name'>{props.clientName}</div>
+		</div>
+	);
+}
 export default class Header extends Component {
 	render() {
 		return (
-			<header id={this.props.id}>
-				<div className="custom-wrapper">
-					<nav className="pure-menu pure-menu-horizontal custom-can-transform">
-						<div className="pure-menu-heading pure-u-1 pure-u-md-1-3">
-							<img src={logo128} alt="logo" className="pure-img"/>
-							{/* this image should be inline */}
-							<span>{this.props.clientName}</span>
-						</div>
+			<header>
+				<div className="">
+					<nav id={this.props.id} className="pure-menu pure-menu-horizontal custom-can-transform">
+						<Logo clientName={this.props.clientName} />
 						<ul className="pure-menu-list">
 							<ListItem
 								text="About Us"

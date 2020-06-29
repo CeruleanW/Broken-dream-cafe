@@ -24,7 +24,7 @@ export default class Gallery extends Component {
 	render() {
 		return (
 			<section className="gallery">
-				<div className><p>Operating Hours</p>
+				<div className=""><p>Operating Hours</p>
 				<p>Breakfast menu: 8am - 11.30am, Mon-Fri. </p>
 				<p>All day menu: 12noon - 10.30pm, Mon-Fri &amp; Sat from 5pm.{" "}</p>
 				<p>Brunch menu: 9am - 4pm, Sat &amp; Sun.</p></div>

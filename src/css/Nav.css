@@ -1,0 +1,10 @@
+/* The Logo image and the title should be displayed on the same line */
+
+.header__logo__img {
+    display: inline-flex;
+    max-width: 28px;
+}
+
+.header__logo__name {
+    display: inline-flex;
+}

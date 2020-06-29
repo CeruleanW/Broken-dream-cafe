@@ -5,7 +5,7 @@ import AboutUs from './AboutUs';
 import Header from './Header';
 import Intro from './Intro';
 import Gallery from './Gallery';
-import Menu from './Menu';
+import FoodMenu from './FoodMenu';
 import Testimonial from './Testimonial';
 import BookingForm from './BookingForm';
 
@@ -24,7 +24,7 @@ function App() {
 				<Header ids={sectionIds} clientName={clientName} />
 				<Intro ids={sectionIds} clientName={clientName} />
 				<Gallery />
-				<Menu id={sectionIds.menu} />
+				<FoodMenu id={sectionIds.menu} />
 				<Testimonial />
 				<AboutUs id={sectionIds.aboutUs} clientName={clientName} />
 				<BookingForm id={sectionIds.booking} />

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-export default class MenuItem extends Component {
+export default class FoodMenuItem extends Component {
 	render() {
 		return (
 			<div className="pure-u-1-2">
