@@ -1,6 +1,19 @@
 /* The Logo image and the title should be displayed on the same line */
 
-.header__logo__img {
+.header__logo {
+    display: inline-flex;
+    margin: 0 auto;
+}
+
+.header__logo__name {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: large;
+    padding-left: 10px;
+}
+
+/* .header__logo__img {
     display: inline-block;
     max-width: 28px;
 }
@@ -21,4 +34,4 @@
 
 .logo {
     padding: 0.2rem;
-}
+} */

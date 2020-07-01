@@ -2,7 +2,7 @@ import React from 'react';
 import Footer from './Footer';
 import Share from './Share';
 import AboutUs from './AboutUs';
-import Header from './Header';
+import Header from './header/Header';
 import Intro from './Intro';
 import Gallery from './Gallery';
 import FoodMenu from './FoodMenu';

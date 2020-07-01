@@ -11,7 +11,7 @@ export default class Footer extends Component {
 					backgroundColor: "#1b2024",
 					padding: "1rem",
 					color: "#ffffff",
-					font: "300 0.8rem 'Lora', serif",
+					font: "300 0.9rem 'Lora', serif",
 				}}
 				stickyStyles={{
 					backgroundColor: "rgba(255,255,255,.8)",
@@ -33,13 +33,6 @@ export default class Footer extends Component {
 					.
 				</div>
 			</StickyFooter>
-
-			// <footer className="footer-distributed">
-			// 	<p className="slogan">
-			// 		At Broken Dream, there is no exclusion!
-			// 	</p>
-
-			// </footer>
 		);
 	}
 }
