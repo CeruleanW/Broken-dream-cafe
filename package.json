@@ -11,9 +11,7 @@
     "lorem-ipsum": "^2.0.3",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "^3.4.1",
-    "semantic-ui-css": "^2.4.1",
-    "semantic-ui-react": "^0.88.2"
+    "react-scripts": "^3.4.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -49,9 +47,12 @@
   "devDependencies": {
     "evergreen-ui": "^4.28.0",
     "lodash": "^4.17.15",
+    "react-alice-carousel": "^1.19.3",
     "react-responsive-animate-navbar": "^1.1.8",
     "react-share": "^4.2.0",
     "react-sticky-footer": "0.1.0-rc3",
-    "reactstrap": "^8.5.1"
+    "reactstrap": "^8.5.1",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^0.88.2"
   }
 }

@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import styles from "../css/Gallery.module.css";
 // Features
 // Slide
 // click and enlarge
@@ -6,7 +7,7 @@ import React, { Component } from "react";
 
 const GalleryImg = (props) => {
 	return (
-		<div className="pure-u-1-2">
+		<div className={"pure-u-1-2 " + styles.card}>
 			<img
 				src={
 					process.env.PUBLIC_URL +
@@ -16,6 +17,7 @@ const GalleryImg = (props) => {
 				alt={props.altText}
 				className="pure-img"
 			/>
+			<div class={styles.cardHead}>{props.altText}</div>
 		</div>
 	);
 };
@@ -23,13 +25,8 @@ const GalleryImg = (props) => {
 export default class Gallery extends Component {
 	render() {
 		return (
-			<section className="gallery">
-				<div className=""><p>Operating Hours</p>
-				<p>Breakfast menu: 8am - 11.30am, Mon-Fri. </p>
-				<p>All day menu: 12noon - 10.30pm, Mon-Fri &amp; Sat from 5pm.{" "}</p>
-				<p>Brunch menu: 9am - 4pm, Sat &amp; Sun.</p></div>
-
-				<div className="pure-g">
+			<section className={styles.sectionContainer}>
+				<div className={"pure-g " + styles.container}>
 					<GalleryImg
 						imageFileName="StockSnap_LF3YEO5Q13.jpg"
 						altText="Pasta"

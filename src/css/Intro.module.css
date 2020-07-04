@@ -1,0 +1,27 @@
+.intro {
+	background-image: url(../images/StockSnap_DW4W4JKS9I-large.jpg);
+    color: white;
+    margin: 0;
+}
+
+.heading {
+    color: cornsilk;
+    padding: 10px 10px 10px 4vw;
+    font-size: 3rem;
+    width: fit-content;
+    background: #8631d5d1;
+}
+
+.content {
+    margin-left: 70%;
+    display: grid;
+    background: #ff8d00d4;
+    margin-right: 5%;
+    margin-top: 40px;
+    padding: 10px;
+}
+
+.contentLeft, .contentRight {
+    display: inline-block;
+    width: 50%;
+}

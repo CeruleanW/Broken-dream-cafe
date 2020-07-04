@@ -18,7 +18,6 @@ export default class Footer extends Component {
 					padding: "1rem",
 					font: "300 1rem 'Lora', serif",
 				}}
-				onFooterStateChange={false}
 			>
 				<div className="footer-copyright center">
 					{" "}
