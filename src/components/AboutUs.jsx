@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Header, Image, Container as div } from "semantic-ui-react";
 import logo from "../images/logo512.png";
-import bgImage from "../images/StockSnap_UKPXEXD4TT.jpg"
+import bgImage from "../images/StockSnap_UKPXEXD4TT.jpg";
 import styles from "../css/AboutUs.module.css";
 
 export default class AboutUs extends Component {
@@ -17,7 +17,9 @@ export default class AboutUs extends Component {
 						<Image src={logo} circular />
 						<Header.Content className={styles.title} >{this.props.clientName}</Header.Content>
 					</Header>
-					<img src={bgImage} alt="Background" />
+					{/* <img src={bgImage} alt="Background" /> */}
+
+					<div className={styles.bar}>
 					<p className={styles.introText}>
 						Since 1874 when Despa Maecenas and his wife Vivian
 						opened the Broken Dream Cafe, cozy experience was always
@@ -30,7 +32,7 @@ export default class AboutUs extends Component {
 						custom roasted in small batches to guarantee taste and
 						freshness.
 					</p>
-					<div className={styles.bar}></div>
+					</div>
 				</div>
 			</section>
 		);

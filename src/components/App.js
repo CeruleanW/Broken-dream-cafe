@@ -13,7 +13,7 @@ import "../css/layout.css";
 // Navigation bar items: "About Us", "Menu", "Catering", "Events", "Book Now!"
 
 const clientName = "Broken Dream Café";
-const sectionIds = {
+export const sectionIds = {
   "aboutUs": "about-us",
   "menu": "food-menu",
   "booking": "booking-form"

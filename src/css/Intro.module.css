@@ -1,27 +1,42 @@
 .intro {
 	background-image: url(../images/StockSnap_DW4W4JKS9I-large.jpg);
-    color: white;
-    margin: 0;
+	color: white;
+	margin: 0;
 }
 
 .heading {
-    color: cornsilk;
-    padding: 10px 10px 10px 4vw;
-    font-size: 3rem;
-    width: fit-content;
-    background: #8631d5d1;
+	color: cornsilk;
+	padding: 10px 10px 10px 4vw;
+	font-size: 3rem;
+	width: fit-content;
+	background: #8631d5d1;
+	text-align: center;
 }
 
 .content {
-    margin-left: 70%;
-    display: grid;
-    background: #ff8d00d4;
-    margin-right: 5%;
-    margin-top: 40px;
-    padding: 10px;
+	display: grid;
+	background: #8d1010e0;
+	margin: auto;
+	margin-top: 20px;
+	padding: 20px;
+	color: blanchedalmond;
+	font-family: cursive;
+	max-width: 90%;
 }
 
-.contentLeft, .contentRight {
-    display: inline-block;
-    width: 50%;
+.contentLeft,
+.contentRight {
+	display: inline-block;
+	width: 50%;
+}
+
+.btn {
+}
+
+@media (min-width: 767px) {
+	.content {
+		margin-left: 70%;
+		margin-right: 5%;
+		margin-top: 40px;
+	}
 }
