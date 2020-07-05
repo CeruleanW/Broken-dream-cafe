@@ -15,7 +15,7 @@ export default class AboutUs extends Component {
 						textAlign="center"
 					>
 						<Image src={logo} circular />
-						<Header.Content className={styles.title} >{this.props.clientName}</Header.Content>
+						<Header.Content className={styles.headerTitle} >{this.props.clientName}</Header.Content>
 					</Header>
 					{/* <img src={bgImage} alt="Background" /> */}
 

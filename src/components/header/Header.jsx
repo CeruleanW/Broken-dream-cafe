@@ -20,14 +20,14 @@ const ListItem = (props) => {
 export default class Header extends Component {
 	render() {
 		const leftItems = [
-			// { as: "a", content: "About Us", key: "aboutUs", href: "#" + this.props.ids["aboutUs"] },
-			// { as: "a", content: "Menu", key: "menu", href: "#" + this.props.ids["menu"] },
-			// { as: "a", content: "Catering", key: "catering" },
-			// { as: "a", content: "Events", key: "events" }
+			{ as: "a", content: "About Us", key: "aboutUs", href: "#" + this.props.ids["aboutUs"] },
+			{ as: "a", content: "Menu", key: "menu", href: "#" + this.props.ids["menu"] },
+			{ as: "a", content: "Catering", key: "catering" },
+			{ as: "a", content: "Events", key: "events" }
 		];
 		
 		const rightItems = [
-			// { as: "a", content: "Book a Table", key: "booking", href: "#" + this.props.ids["booking"] },
+			{ as: "a", content: "Book a Table", key: "booking", href: "#" + this.props.ids["booking"] },
 		];
 
 		return (

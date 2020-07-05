@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import _ from "lodash";
 import { Container, Menu } from "semantic-ui-react";
 
-import "../../css/Navbar.css";
+import "./Navbar.module.css";
 
 class NavBar extends Component {
 	render() {

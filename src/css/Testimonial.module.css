@@ -58,7 +58,7 @@ img {
     /* z-index: 600; */
     margin-top: 4vh;
     padding: 0 6% 0 6%;
-    font-size: 2.1rem;
+    font-size: 1.5rem;
     font-family: Calibri;
     color: rgb(199, 30, 95);
 }
@@ -82,5 +82,9 @@ img {
 @media screen and (min-width: 960px) {
 	.container {
 		height: 400px;
+	}
+
+	.quote {
+		font-size: 2rem;
 	}
 }
