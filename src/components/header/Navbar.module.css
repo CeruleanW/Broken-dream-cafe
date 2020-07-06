@@ -1,16 +1,30 @@
 /* The Logo image and the title should be displayed on the same line */
 
-.header__logo {
+.headingItemContainer {
     display: inline-flex;
     margin: 0 auto;
+    flex-grow: 0.95;
+    color: white;
+    padding: 4px;
 }
 
-.header__logo__name {
+.headingItemName {
     display: flex;
     align-items: center;
     font-weight: bold;
     font-size: large;
     padding-left: 10px;
+}
+
+.fixedProblem {
+    margin-bottom: 51px;
+    max-width: 100%;
+}
+
+@media (min-width: 767px) {
+    .fixedProblem {
+        margin-bottom: 69px;
+    }
 }
 
 /* .header__logo__img {

@@ -110,7 +110,7 @@
 
 
 
-@media (min-width: 680px) {
+@media (min-width: 767px) {
     .dishMenuContainer {
         width: 80%;
         margin: auto;

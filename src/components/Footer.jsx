@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "../css/Footer.css"
+import "../css/layout.css";
 // https://www.npmjs.com/package/react-sticky-footer
 import StickyFooter from 'react-sticky-footer';
 export default class Footer extends Component {
@@ -19,7 +19,7 @@ export default class Footer extends Component {
 					font: "300 1rem 'Lora', serif",
 				}}
 			>
-				<div className="footer-copyright center">
+				<div className="center">
 					{" "}
 					Copyright &copy; 2020 <s>{this.props.clientName}</s> Developed with ❤️ by
 					<a

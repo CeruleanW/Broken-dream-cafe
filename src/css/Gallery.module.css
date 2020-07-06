@@ -24,7 +24,7 @@
 }
 .container .card .cardHead {
 	color: black;
-	background: rgba(248, 30, 255, 0.75);
+	background: #8631d5d1;
 	padding: 0.5em;
 	transform: rotate(-90deg);
 	transform-origin: 0% 0%;

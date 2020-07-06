@@ -8,7 +8,6 @@ import Gallery from './Gallery';
 import DishMenu from './DishMenu';
 import Testimonial from './Testimonial';
 import BookingForm from './BookingForm';
-import "../css/layout.css";
 
 // Navigation bar items: "About Us", "Menu", "Catering", "Events", "Book Now!"
 
