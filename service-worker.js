@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Broken-dream-cafe/precache-manifest.1e1c2b4106f6e20c2e480c6c96d43f33.js"
+  "/Broken-dream-cafe/precache-manifest.02d890959e4a1b9fb12c638b327c564e.js"
 );
 
 self.addEventListener('message', (event) => {

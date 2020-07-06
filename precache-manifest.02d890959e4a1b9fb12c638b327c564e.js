@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0a6ada376c7f0120eee0de4dd274ee7c",
+    "revision": "50c1e4571eef5aba5e16979a91074da3",
     "url": "/Broken-dream-cafe/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Broken-dream-cafe/static/css/2.685706c2.chunk.css"
   },
   {
-    "revision": "b649120823b4bae62a15",
-    "url": "/Broken-dream-cafe/static/css/main.0ca44f15.chunk.css"
+    "revision": "c176ef6fe37b8bb19282",
+    "url": "/Broken-dream-cafe/static/css/main.dcb93e81.chunk.css"
   },
   {
     "revision": "5c0f82094c27ece97b75",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Broken-dream-cafe/static/js/2.7051c4ee.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b649120823b4bae62a15",
+    "revision": "c176ef6fe37b8bb19282",
     "url": "/Broken-dream-cafe/static/js/main.cc049e8a.chunk.js"
   },
   {
@@ -54,6 +54,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e8c322de9658cbeb8a774b6624167c2c",
     "url": "/Broken-dream-cafe/static/media/brand-icons.e8c322de.woff2"
+  },
+  {
+    "revision": "a9184eb9991da79912117bf18ed5d80a",
+    "url": "/Broken-dream-cafe/static/media/coffee-beans-in-glass-mobile.a9184eb9.jpg"
   },
   {
     "revision": "9c74e172f87984c48ddf5c8108cabe67",
