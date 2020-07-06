@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Broken-dream-cafe/static/css/main.0ca44f15.chunk.css",
+    "main.js": "/Broken-dream-cafe/static/js/main.cc049e8a.chunk.js",
+    "main.js.map": "/Broken-dream-cafe/static/js/main.cc049e8a.chunk.js.map",
+    "runtime-main.js": "/Broken-dream-cafe/static/js/runtime-main.cdafaf51.js",
+    "runtime-main.js.map": "/Broken-dream-cafe/static/js/runtime-main.cdafaf51.js.map",
+    "static/css/2.685706c2.chunk.css": "/Broken-dream-cafe/static/css/2.685706c2.chunk.css",
+    "static/js/2.7051c4ee.chunk.js": "/Broken-dream-cafe/static/js/2.7051c4ee.chunk.js",
+    "static/js/2.7051c4ee.chunk.js.map": "/Broken-dream-cafe/static/js/2.7051c4ee.chunk.js.map",
+    "index.html": "/Broken-dream-cafe/index.html",
+    "precache-manifest.1e1c2b4106f6e20c2e480c6c96d43f33.js": "/Broken-dream-cafe/precache-manifest.1e1c2b4106f6e20c2e480c6c96d43f33.js",
+    "service-worker.js": "/Broken-dream-cafe/service-worker.js",
+    "static/css/2.685706c2.chunk.css.map": "/Broken-dream-cafe/static/css/2.685706c2.chunk.css.map",
+    "static/css/main.0ca44f15.chunk.css.map": "/Broken-dream-cafe/static/css/main.0ca44f15.chunk.css.map",
+    "static/js/2.7051c4ee.chunk.js.LICENSE.txt": "/Broken-dream-cafe/static/js/2.7051c4ee.chunk.js.LICENSE.txt",
+    "static/media/Intro.module.css": "/Broken-dream-cafe/static/media/StockSnap_DW4W4JKS9I-large.2c8a000f.jpg",
+    "static/media/StockSnap_UKPXEXD4TT.jpg": "/Broken-dream-cafe/static/media/StockSnap_UKPXEXD4TT.63021c64.jpg",
+    "static/media/semantic.min.css": "/Broken-dream-cafe/static/media/outline-icons.ef60a4f6.woff",
+    "static/media/octogon.svg": "/Broken-dream-cafe/static/media/octogon.abdac776.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cdafaf51.js",
+    "static/css/2.685706c2.chunk.css",
+    "static/js/2.7051c4ee.chunk.js",
+    "static/css/main.0ca44f15.chunk.css",
+    "static/js/main.cc049e8a.chunk.js"
+  ]
+}
