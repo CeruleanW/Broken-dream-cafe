@@ -23,29 +23,6 @@
 
 @media (min-width: 767px) {
     .fixedProblem {
-        margin-bottom: 69px;
+        /* margin-bottom: 69px; */
     }
 }
-
-/* .header__logo__img {
-    display: inline-block;
-    max-width: 28px;
-}
-
-.header__logo__name {
-    display: inline-block;
-}
-
-.nav-li {
-    display: block;
-}
-
-@media (min-width: 600px) {
-    .nav-li {
-        display: inline-block;
-    }
-}
-
-.logo {
-    padding: 0.2rem;
-} */

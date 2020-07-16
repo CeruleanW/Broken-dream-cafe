@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import styles from "../css/Intro.module.css";
 import IntroContent from "./IntroContent";
+import { clientName } from "./Constants";
 
 // set the background image in CSS
 export default class Intro extends Component {
@@ -10,7 +11,7 @@ export default class Intro extends Component {
 				<div className={styles.container}>
 					{/* <p className="slogan">Don't push your love too far in in</p> */}
 					<h1 className={styles.heading}>
-						Welcome to {this.props.clientName}
+						Welcome to {clientName}
 					</h1>
 				</div>
 				<IntroContent ids={this.props.ids}/>

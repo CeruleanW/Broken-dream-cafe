@@ -1,9 +1,5 @@
 import React, { Component } from "react";
 import styles from "../css/Gallery.module.css";
-// Features
-// Slide
-// click and enlarge
-// animation
 
 const GalleryImg = (props) => {
 	return (
@@ -17,7 +13,7 @@ const GalleryImg = (props) => {
 				alt={props.altText}
 				className="pure-img"
 			/>
-			<div class={styles.cardHead}>{props.altText}</div>
+			<div className={styles.cardHead}>{props.altText}</div>
 		</div>
 	);
 };

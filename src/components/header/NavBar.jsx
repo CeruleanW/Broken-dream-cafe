@@ -1,19 +1,18 @@
 import React, { Component } from "react";
 import _ from "lodash";
-import { Sticky, Menu, Dropdown, Responsive } from "semantic-ui-react";
+import { Menu, Dropdown, Responsive } from "semantic-ui-react";
 import HeadingWithLogo from "./HeadingWithLogo";
 import styles from "./Navbar.module.css";
 
 const BaseMenu = (props) => {
 	return (
 		<div>
-			<Menu fixed="top" inverted >
+			<Menu fixed="top" inverted>
 				<Menu.Header className={styles.headingItemContainer}>
 					<HeadingWithLogo />
 				</Menu.Header>
 				{props.children}
 			</Menu>
-			{/* <NavBarChildren>{children}</NavBarChildren> */}
 		</div>
 	);
 };
@@ -37,22 +36,16 @@ const Mobile = (props) => {
 
 const Desktop = (props) => {
 	return (
-		<div>
-			<Menu fixed="top" inverted stackable>
-				<Menu.Item>
-					<HeadingWithLogo />
-				</Menu.Item>
-				{_.map(props.leftItems, (item) => (
+		<BaseMenu>
+			{_.map(props.leftItems, (item) => (
+				<Menu.Item {...item} />
+			))}
+			<Menu.Menu position="right">
+				{_.map(props.rightItems, (item) => (
 					<Menu.Item {...item} />
 				))}
-				<Menu.Menu position="right">
-					{_.map(props.rightItems, (item) => (
-						<Menu.Item {...item} />
-					))}
-				</Menu.Menu>
-			</Menu>
-			{/* <NavBarChildren>{children}</NavBarChildren> */}
-		</div>
+			</Menu.Menu>
+		</BaseMenu>
 	);
 };
 
@@ -72,9 +65,5 @@ class NavBar extends Component {
 		);
 	}
 }
-
-// const NavBarChildren = ({ children }) => (
-// 	<Container style={{ marginTop: "6em" }}>{children}</Container>
-// );
 
 export default NavBar;

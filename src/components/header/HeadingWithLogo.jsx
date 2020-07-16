@@ -6,7 +6,7 @@ import styles from "./Navbar.module.css";
 
 const HeadingWithLogo = (props) => {
 	return (
-		<a href="/">
+		<a href="/Broken-dream-cafe/">
 			<div className={styles.headingItemContainer}>
 				<Image
 					size="mini"

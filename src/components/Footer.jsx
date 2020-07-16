@@ -1,7 +1,10 @@
 import React, { Component } from "react";
-import "../css/layout.css";
-// https://www.npmjs.com/package/react-sticky-footer
+// Library Link: https://www.npmjs.com/package/react-sticky-footer
 import StickyFooter from 'react-sticky-footer';
+import "../css/layout.css";
+import { clientName } from "./Constants";
+
+
 export default class Footer extends Component {
 	render() {
 		return (
@@ -21,7 +24,7 @@ export default class Footer extends Component {
 			>
 				<div className="center">
 					{" "}
-					Copyright &copy; 2020 <s>{this.props.clientName}</s> Developed with ❤️ by
+					Copyright &copy; 2020 <s>{clientName}</s> Developed with ❤️ by
 					<a
 						href="https://github.com/CeruleanW"
 						className="white-text footer__link"

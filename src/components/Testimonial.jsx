@@ -40,12 +40,13 @@ export default class Testimonial extends Component {
 
 		return (
 			<section className={styles.section}>
-				{/* <AliceCarousel mouseTrackingEnabled autoHeight items={testimonialItems} fadeOutAnimation autoPlay autoPlayInterval="7000" > */}
 				<AliceCarousel
 					mouseTrackingEnabled
 					items={testimonialItems}
 					fadeOutAnimation
 					autoHeight
+					autoPlay 
+					autoPlayInterval={7000}
 				></AliceCarousel>
 			</section>
 		);

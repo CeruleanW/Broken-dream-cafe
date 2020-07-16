@@ -42,7 +42,7 @@ class Desktop extends Component {
 						</Grid.Column>
 					</Grid.Row>
 					<Grid.Row centered>
-						<Grid.Column verticalAlign="top" centered width={16}>
+						<Grid.Column verticalAlign="top" width={16}>
                             <IntroButtons />
 						</Grid.Column>
 					</Grid.Row>

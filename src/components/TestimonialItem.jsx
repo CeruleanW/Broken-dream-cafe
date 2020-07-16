@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import styles from "../css/Testimonial.module.css";
-import octogon from "../images/octogon.svg";
 
 export default class TestimonialItem extends Component {
 	render() {
