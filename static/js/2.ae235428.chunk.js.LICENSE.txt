@@ -5,6 +5,12 @@ object-assign
 */
 
 /*!
+    Copyright (c) 2017 Jed Watson.
+    Licensed under the MIT License (MIT), see
+    http://jedwatson.github.io/classnames
+  */
+
+/*!
   Copyright (c) 2015 Jed Watson.
   Based on code that is Copyright 2013-2015, Facebook, Inc.
   All rights reserved.
@@ -15,13 +21,6 @@ object-assign
   Licensed under the MIT License (MIT), see
   http://jedwatson.github.io/classnames
 */
-
-/*!
- * The buffer module from node.js, for the browser.
- *
- * @author   Feross Aboukhadijeh <feross@feross.org> <http://feross.org>
- * @license  MIT
- */
 
 /**
  * @license

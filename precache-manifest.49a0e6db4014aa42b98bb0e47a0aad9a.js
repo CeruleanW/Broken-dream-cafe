@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "50c1e4571eef5aba5e16979a91074da3",
+    "revision": "88911f704d65b770380421ddeafb1947",
     "url": "/Broken-dream-cafe/index.html"
   },
   {
-    "revision": "5c0f82094c27ece97b75",
-    "url": "/Broken-dream-cafe/static/css/2.685706c2.chunk.css"
+    "revision": "8ffbe9cba8c579d60a83",
+    "url": "/Broken-dream-cafe/static/css/2.243b7cfc.chunk.css"
   },
   {
-    "revision": "c176ef6fe37b8bb19282",
-    "url": "/Broken-dream-cafe/static/css/main.dcb93e81.chunk.css"
+    "revision": "1ed0b51d349889825e20",
+    "url": "/Broken-dream-cafe/static/css/main.4b7c71e7.chunk.css"
   },
   {
-    "revision": "5c0f82094c27ece97b75",
-    "url": "/Broken-dream-cafe/static/js/2.7051c4ee.chunk.js"
+    "revision": "8ffbe9cba8c579d60a83",
+    "url": "/Broken-dream-cafe/static/js/2.ae235428.chunk.js"
   },
   {
-    "revision": "7e01d19aff7748620441570548d24305",
-    "url": "/Broken-dream-cafe/static/js/2.7051c4ee.chunk.js.LICENSE.txt"
+    "revision": "01570012c34f5086a8b30cf0820dac95",
+    "url": "/Broken-dream-cafe/static/js/2.ae235428.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c176ef6fe37b8bb19282",
-    "url": "/Broken-dream-cafe/static/js/main.cc049e8a.chunk.js"
+    "revision": "1ed0b51d349889825e20",
+    "url": "/Broken-dream-cafe/static/js/main.37709293.chunk.js"
   },
   {
     "revision": "7cb91ef7cec9a693d057",
@@ -30,10 +30,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "2c8a000fda9f1ee411d8dad1dac3a480",
     "url": "/Broken-dream-cafe/static/media/StockSnap_DW4W4JKS9I-large.2c8a000f.jpg"
-  },
-  {
-    "revision": "63021c646337c3b623b2be58404dbd7c",
-    "url": "/Broken-dream-cafe/static/media/StockSnap_UKPXEXD4TT.63021c64.jpg"
   },
   {
     "revision": "13db00b7a34fee4d819ab7f9838cc428",
@@ -82,10 +78,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "faff92145777a3cbaf8e7367b4807987",
     "url": "/Broken-dream-cafe/static/media/icons.faff9214.woff"
-  },
-  {
-    "revision": "abdac7760e2c83b05d89e3f3a3d923a2",
-    "url": "/Broken-dream-cafe/static/media/octogon.abdac776.svg"
   },
   {
     "revision": "701ae6abd4719e9c2ada3535a497b341",
