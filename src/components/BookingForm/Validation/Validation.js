@@ -18,9 +18,9 @@ export const Validation = (function () {
 		return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
 	};
 
-	const isValidPhoneNumber = (phone) => {
-		const phoneNumber = parsePhoneNumberFromString(phone);
-		const isValid = (phoneNumber !== undefined) && (phoneNumber.isValid());
+	const isValidPhoneNumber = (phoneNumber) => {
+		const step1 = parsePhoneNumberFromString('+' + phoneNumber);
+		const isValid = (step1 !== undefined) && (step1.isValid());
 		return isValid;
 	};
 
@@ -79,5 +79,6 @@ export const Validation = (function () {
 	return {
 		checkAllInputs,
 		setNameRange,
+		isValidName
 	};
 })();

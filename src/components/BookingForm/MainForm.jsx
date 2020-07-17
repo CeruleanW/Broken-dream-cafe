@@ -5,8 +5,6 @@ import { Validation } from "./Validation/Validation";
 import { ErrorMessages } from "./ErrorMessages";
 import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
-//TODO: Modal for submission
-//TODO: Validation & Error Message
 
 const defaultFormState = {
 	name: "",
@@ -108,39 +106,15 @@ export default class MainForm extends Component {
 					<Form.Field
 						fluid
 						error={this.state.errorMessages.phoneError || false}
-						children={<PhoneInput
-							country={"ca"}
-							value={this.state.phone}
-							onChange={phone => this.setState({ phone })}
-							preferredCountries={["ca", "us"]}
-							inputStyle={{ paddingLeft: "48px"}}
-							containerClass="ui fluid input"
-							// containerStyle={{ height: 'auto' }}
-							inputProps={{ name: 'phone', className: "" }}
-						/>}
-					>
-						{/* <PhoneInput
-							country={"ca"}
-							value={this.state.phone}
-							onChange={phone => this.setState({ phone })}
-							preferredCountries={["ca", "us"]}
-							inputStyle={{ paddingLeft: "48px"}}
-							containerClass="ui fluid input"
-							// containerStyle={{ height: 'auto' }}
-							inputProps={{ name: 'phone', className: "" }}
-						/> */}
-					</Form.Field>
-					{/* <Form.Input
-						fluid
-						icon="phone"
-						iconPosition="left"
-						placeholder="Phone number"
-						type="text"
-						name="phone"
+						control={PhoneInput}
+						country={"ca"}
 						value={this.state.phone}
-						onChange={this.handleChange}
-						error={this.state.errorMessages.phoneError || false}
-					/> */}
+						onChange={(phone) => this.setState({ phone })}
+						preferredCountries={["ca", "us"]}
+						inputStyle={{ paddingLeft: "48px" }}
+						containerClass="ui fluid input"
+						inputProps={{ name: "phone", className: "" }}
+					/>
 
 					<Form.Input
 						fluid

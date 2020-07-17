@@ -2,28 +2,25 @@ export const ErrorMessages = (function () {
 	const allErrorMessages = {
 		nameError: {
 			content: "Please enter your full name correctly",
-			pointing: "below",
+			// floating: true,
+			pointing: 'above'
 		},
 		emailError: {
 			content:
 				'Email address must contain "@" and a "." in the right places',
-			pointing: "below",
 		},
 		phoneError: {
 			content: "Please enter your phone number correctly",
-			pointing: "below",
+			pointing: 'above'
 		},
 		dateError: {
 			content: "The date cannot be earlier than tomorrow.",
-			pointing: "below",
 		},
 		timeError: {
 			content: "Please book at a time between 9:00 AM to 9:00 PM",
-			pointing: "below",
 		},
 		personError: {
 			content: "The number must be in the range from 1 to 200",
-			pointing: "below",
 		},
 	};
 

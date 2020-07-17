@@ -57,12 +57,10 @@
     "lorem-ipsum": "^2.0.3",
     "moment": "^2.27.0",
     "react-alice-carousel": "^1.19.3",
-    "react-intl-tel-input": "^8.0.4",
     "react-phone-input-2": "^2.13.7",
     "react-responsive-animate-navbar": "^1.1.8",
     "react-share": "^4.2.0",
     "react-sticky-footer": "0.1.0-rc3",
-    "react-telephone-input": "^5.0.0",
     "reactstrap": "^8.5.1",
     "semantic-ui-css": "^2.4.1",
     "semantic-ui-react": "^0.88.2"
